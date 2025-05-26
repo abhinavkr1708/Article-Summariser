@@ -89,3 +89,12 @@ document.getElementById("copy-btn").addEventListener("click", () => {
     setTimeout(() => (btn.textContent = old), 3000);
   });
 });
+document.getElementById("listen-summary").addEventListener("click", () => {
+  const txt = document.getElementById("result").innerText;
+  if (!txt) return;
+  window.speechSynthesis.cancel();
+
+  const utterance = new SpeechSynthesisUtterance(txt);
+  utterance.lang = "en-US"; // You can change language here
+  window.speechSynthesis.speak(utterance);
+});
