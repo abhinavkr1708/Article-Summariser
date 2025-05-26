@@ -1,7 +1,7 @@
 
 # 📰 Article Summarizer - Chrome Extension
 
-A lightweight and efficient Chrome Extension that summarizes the article content of your current tab using **Gemini API** from Google AI Studio. Choose from **brief**, **detailed**, or **bullet point** summaries and copy the result with a single click.
+A lightweight and efficient Chrome Extension that summarizes the article content of your current tab using **Gemini API** from Google AI Studio. Choose from **brief**, **detailed**, or **bullet point** summaries, listen to the summary, and copy the result with a single click.
 
 ## 🚀 Features
 
@@ -16,6 +16,9 @@ A lightweight and efficient Chrome Extension that summarizes the article content
 
 - 📋 **Copy to Clipboard**  
   Instantly copy the generated summary with the **Copy** button.
+
+- 🔊 **Listen to Summary**  
+  Click the **Listen** button to hear the summary read aloud using text-to-speech.
 
 ## 📷 Screenshots
 
