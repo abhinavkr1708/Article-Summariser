@@ -30,7 +30,8 @@ Set your Gemini API key to start using the summarizer.
 ---
 
 ### 📄 Popup Interface
-Choose summary type, generate summary, and copy it.
+Choose summary type, generate summary, listen, and copy it.
+
 
 ![Popup Screenshot](./2.png)
 
@@ -40,8 +41,10 @@ Choose summary type, generate summary, and copy it.
 2. Click the extension icon and go to **Settings**.
 3. **Paste your Gemini API key** (get one from [Google AI Studio](https://aistudio.google.com/app/apikey)).
 4. Open any article and click the extension icon.
-5. Select the summary type → Click **Summarize** → Copy if needed.
-
+5. Select the summary type → Click **Summarize**.
+6. Click **Listen** to hear the summary.
+7. Click **Copy** if needed.
+   
 ## 📦 Tech Stack
 
 - HTML,CSS
