@@ -5,7 +5,7 @@ document.getElementById("summarize").addEventListener("click", () => {
   /// Get User's Api Key
   chrome.storage.sync.get(["geminiApiKey"], ({ geminiApiKey }) => {
     if (!geminiApiKey) {
-      resultDiv.textContent = "Set your API Key.Click the gear icon to add.";
+      resultDiv.textContent = "Set your API Key.By Going to the options of the Extensions.";
       return;
     }
     // Ask content.js for the page text
